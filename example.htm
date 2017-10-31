@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Marquee Example</title>
+		<link rel="stylesheet" href="css/marquee.css" />
+		<link rel="stylesheet" href="css/example.css" />
+	</head>
+	<body>
+
+		<div class="content">
+			<div class="simple-marquee-container">
+				<div class="marquee-sibling">
+					Trusted by your favorite creators
+				</div>
+				<div class="marquee">
+					<ul class="marquee-content-items">
+						<li><img class="yonce" src="images/logo-beyonce.png"/></li>
+						<li><img src="images/logo-diplo.png"/></li>
+						<li><img src="images/logo-katy-perry.png"/></li>
+						<li><img src="images/logo-santigold.png"/></li>
+						<li><img src="images/max-martin.png"/></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/marquee.js"></script>
+
+
+		<script>
+			$(function (){
+
+				$('.simple-marquee-container').SimpleMarquee();
+
+			});
+
+		</script>
+	</body>
+</html>
