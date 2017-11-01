@@ -29,7 +29,7 @@
 	left: 0;
 	z-index: 2000;
 
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 16px;
@@ -64,6 +64,10 @@
   line-height: 35px;
 	margin-right: 48px;
   margin-top: 4px;
+}
+
+.marquee-content-items li:last-child {
+	margin-right: 24px;
 }
 
 li img {

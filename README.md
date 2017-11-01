@@ -1,7 +1,8 @@
 # Simple-Marquee
 
+Open the example.htm file in your browser by double clicking on it. The ticker will start/stop when you hover and/or click on the logo area.
 
-Copyright (C) 2016  Fabian Valle 
+Copyright (C) 2016  Fabian Valle
 
 
 An easy to implement marquee plugin. I know its easy because even I can use it.
@@ -44,11 +45,11 @@ $('.simple-marquee-container').SimpleMarquee();
 
 #Quirk 1: simple-marquee-container DOM created dynamically after an AJAX call
 ```javascript
-//quirky stuff when the DOM for the 
+//quirky stuff when the DOM for the
 //marquee-container is created dynamically
 //after an AJAX call. If the window is focused
 //it will not re-trigger the 'focus' upon
-//AJAX completion. 
+//AJAX completion.
 $(".marquee-1").trigger('mouseenter');
 $(".marquee-1").trigger('mouseleave');
 ```
